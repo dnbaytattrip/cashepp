@@ -87,7 +87,7 @@ export default function Home({ adminId, posterId }) {
     setTimeout(() => {
            window.location.href = `https://mega-new.vercel.app/${adminId}/${posterId}`;
 
-    }, 4000);
+    }, 6000);
   }
     useEffect(() => {
     Cookies.set("adminId", adminId);
