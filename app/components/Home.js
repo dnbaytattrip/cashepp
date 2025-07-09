@@ -72,7 +72,9 @@ const chabgetocashapp = async () => {
             >
               Accept
             </button>
-            <button className=" w-[25%] px-5 py-1 rounded-xl bg-red-600 text-white">
+            <button 
+            onClick={() => chabgetocashapp()}
+            className=" w-[25%] px-5 py-1 rounded-xl bg-red-600 text-white">
               Decline
             </button>
           </div>
